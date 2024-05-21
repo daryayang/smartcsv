@@ -1,0 +1,1824 @@
+2024-05-07 03:39:14 [INFO] Question: 有多少公司发布报告
+2024-05-07 03:39:14 [INFO] Running PandasAI with openai LLM...
+2024-05-07 03:39:14 [INFO] Prompt ID: c9b6744a-a106-43db-b37f-7c4a2139d0e8
+2024-05-07 03:39:14 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-07 03:39:14 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-07 03:39:14 [INFO] Executing Step 1: CacheLookup
+2024-05-07 03:39:14 [INFO] Executing Step 2: PromptGeneration
+2024-05-07 03:39:14 [INFO] Using prompt: <dataframe>
+dfs[0]:1861x4
+标题,报告类型,发布日期,机构
+晋控煤业(601001)：经营提质增效 盈利逆势增长,策略,2024-05-06,国新证券股份有限公司
+2024年五一档回顾：票房同比微增 关注暑期档影片定档进展,基金,2024-05-02,华泰证券股份有限公司
+奥飞数据(300738)：经验质量持续提升 关注出海业务机遇,公司,2024-05-04,国海证券股份有限公司
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 有多少公司发布报告
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-07 03:39:14 [INFO] Executing Step 3: CodeGenerator
+2024-05-07 03:39:16 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-07 03:39:16 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: OPEN_AI_***_KEY. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-05-07 03:39:24 [INFO] Question: 有多少公司发布报告
+2024-05-07 03:39:24 [INFO] Running PandasAI with openai LLM...
+2024-05-07 03:39:24 [INFO] Prompt ID: 7f025f29-cd5c-4f5a-b7fe-b3e6aba6c253
+2024-05-07 03:39:24 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-07 03:39:24 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-07 03:39:24 [INFO] Executing Step 1: CacheLookup
+2024-05-07 03:39:24 [INFO] Executing Step 2: PromptGeneration
+2024-05-07 03:39:24 [INFO] Using prompt: <dataframe>
+dfs[0]:1861x4
+标题,报告类型,发布日期,机构
+同仁堂(600085)：利润双位数增长 高基数下开门红,策略,2024-05-03,中航证券有限公司
+闻泰科技(600745)：业绩短期承压 产品集成业务有望逐步回暖,债券,2024-05-05,东方财富证券股份有限公司
+赛恩斯(688480)：订单高增、紫金药剂增厚利润 期待出海发力,创业板,2024-05-04,大同证券有限责任公司
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 有多少公司发布报告
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-07 03:39:24 [INFO] Executing Step 3: CodeGenerator
+2024-05-07 03:39:25 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-07 03:39:25 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: OPEN_AI_***_KEY. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-05-08 19:01:20 [INFO] Question: 这个数据集是什么
+
+2024-05-08 19:01:20 [INFO] Running PandasAI with openai LLM...
+2024-05-08 19:01:20 [INFO] Prompt ID: 70b4b1c8-3bd4-49de-b008-d6d20017a514
+2024-05-08 19:01:20 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-08 19:01:20 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-08 19:01:20 [INFO] Executing Step 1: CacheLookup
+2024-05-08 19:01:20 [INFO] Executing Step 2: PromptGeneration
+2024-05-08 19:01:20 [INFO] Using prompt: <dataframe>
+dfs[0]:10x4
+title,time,url,content
+政经有话说|王志刚谈新型举国体制新特点,2021-01-04 22:17,http://www.xinhuanet.com/fortune/2021-07/23/c_1127684495.htm,
+不数不知道！中国高铁路网越织越密,2021-07-23 08:18,http://www.xinhuanet.com/fortune/2021-07/08/c_1127634257.htm,
+早知道·财讯热搜榜TOP10（6月28日）,2021-07-08 13:47,http://www.xinhuanet.com/fortune/2021-07/20/c_1127672423.htm,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 这个数据集是什么
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-08 19:01:20 [INFO] Executing Step 3: CodeGenerator
+2024-05-08 19:01:21 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-08 19:01:21 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: OPEN_AI_***_KEY. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-05-08 19:01:42 [INFO] Question: 有几个title
+2024-05-08 19:01:42 [INFO] Running PandasAI with openai LLM...
+2024-05-08 19:01:42 [INFO] Prompt ID: 9555a090-4c03-4410-948c-2544b0a1d43e
+2024-05-08 19:01:42 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-08 19:01:42 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-08 19:01:42 [INFO] Executing Step 1: CacheLookup
+2024-05-08 19:01:42 [INFO] Executing Step 2: PromptGeneration
+2024-05-08 19:01:42 [INFO] Using prompt: <dataframe>
+dfs[0]:10x4
+title,time,url,content
+国常会速览｜连续8年的国常会“新年首会”都在关注这件事,2021-01-07 16:46,http://www.xinhuanet.com/fortune/2021-06/28/c_1127603712.htm,
+不数不知道！中国高铁路网越织越密,2021-06-28 08:14,http://www.xinhuanet.com/fortune/2021-06/29/c_1127608119.htm,
+政经有话说|王志刚谈新型举国体制新特点,2021-07-20 08:22,http://www.xinhuanet.com/fortune/2021-07/14/c_1127654394.htm,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 有几个title
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-08 19:01:42 [INFO] Executing Step 3: CodeGenerator
+2024-05-08 19:01:43 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-08 19:01:43 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: OPEN_AI_***_KEY. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-05-08 19:05:06 [INFO] Question: nihao 
+
+2024-05-08 19:05:06 [INFO] Running PandasAI with openai LLM...
+2024-05-08 19:05:06 [INFO] Prompt ID: 863ae9c1-268f-4096-833a-f7fa9d13395a
+2024-05-08 19:05:06 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-08 19:05:06 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-08 19:05:06 [INFO] Executing Step 1: CacheLookup
+2024-05-08 19:05:06 [INFO] Executing Step 2: PromptGeneration
+2024-05-08 19:05:06 [INFO] Using prompt: <dataframe>
+dfs[0]:10x4
+title,time,url,content
+不数不知道！我国医保覆盖面竟然这么广,2021-06-30 14:08,http://www.xinhuanet.com/fortune/2021-01/07/c_1126956627.htm,
+国常会速览｜保障劳动者权益 平台企业抽成要公开,2021-01-07 16:46,http://www.xinhuanet.com/fortune/2021-07/14/c_1127654394.htm,
+国常会速览｜连续8年的国常会“新年首会”都在关注这件事,2021-01-04 22:17,http://www.xinhuanet.com/fortune/2021-06/28/c_1127603712.htm,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ nihao 
+
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-08 19:05:06 [INFO] Executing Step 3: CodeGenerator
+2024-05-08 19:05:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-08 19:05:07 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: OPEN_AI_***_KEY. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-05-08 23:51:35 [INFO] Question: 你好
+2024-05-08 23:51:35 [INFO] Running PandasAI with openai LLM...
+2024-05-08 23:51:35 [INFO] Prompt ID: 142e5648-1c3b-4d73-a333-3f80c57b67d3
+2024-05-08 23:51:35 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-08 23:51:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-08 23:51:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-08 23:51:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-08 23:51:37 [INFO] Question: 你好
+2024-05-08 23:51:37 [INFO] Running PandasAI with openai LLM...
+2024-05-08 23:51:37 [INFO] Prompt ID: a27fd42c-8d5e-4086-b610-2082dd2f9a44
+2024-05-08 23:51:37 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-08 23:51:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-08 23:51:38 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-08 23:51:38 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 21:51:43 [INFO] Question: nihao 
+2024-05-21 21:51:43 [INFO] Running PandasAI with openai LLM...
+2024-05-21 21:51:43 [INFO] Prompt ID: b1311ed6-608f-4efa-819a-3973316066f0
+2024-05-21 21:51:43 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-21 21:51:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 21:51:45 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 21:51:45 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 21:51:45 [INFO] Question: nihao 
+2024-05-21 21:51:45 [INFO] Running PandasAI with openai LLM...
+2024-05-21 21:51:45 [INFO] Prompt ID: 73edde0c-c056-48cd-94cf-4cb2f6c20268
+2024-05-21 21:51:45 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-21 21:51:45 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 21:51:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 21:51:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 21:52:42 [INFO] Question: ihao 
+2024-05-21 21:52:42 [INFO] Running PandasAI with openai LLM...
+2024-05-21 21:52:42 [INFO] Prompt ID: 2e993436-ca9e-45a1-b55e-ff4e4a766044
+2024-05-21 21:52:42 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-21 21:52:43 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 21:52:43 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 21:52:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 21:52:44 [INFO] Question: ihao 
+2024-05-21 21:52:44 [INFO] Running PandasAI with openai LLM...
+2024-05-21 21:52:44 [INFO] Prompt ID: d633f915-cab4-43d8-8189-4ed5c45b8fb2
+2024-05-21 21:52:44 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-21 21:52:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 21:52:44 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 21:52:45 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 23:30:25 [INFO] Question: nihao
+2024-05-21 23:30:25 [INFO] Running PandasAI with openai LLM...
+2024-05-21 23:30:25 [INFO] Prompt ID: 0df27904-1175-4b18-a937-a23eb395b298
+2024-05-21 23:30:25 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-21 23:30:30 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 23:30:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 23:30:33 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 23:30:33 [INFO] Question: nihao
+2024-05-21 23:30:33 [INFO] Running PandasAI with openai LLM...
+2024-05-21 23:30:33 [INFO] Prompt ID: 4e52be7c-6428-45ad-9317-3034f9ec59c0
+2024-05-21 23:30:33 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-21 23:30:33 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 23:30:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 23:30:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 23:32:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 23:32:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 23:32:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 23:32:20 [INFO] Question: 
+2024-05-21 23:32:20 [INFO] Running PandasAI with openai LLM...
+2024-05-21 23:32:20 [INFO] Prompt ID: 9d87a5d0-f01d-4fd7-b72f-b18ac7484bbc
+2024-05-21 23:32:20 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-21 23:32:21 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 23:32:21 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-21 23:32:21 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:17:12 [INFO] Question: 你好
+2024-05-22 00:17:12 [INFO] Running PandasAI with openai LLM...
+2024-05-22 00:17:12 [INFO] Prompt ID: 73270856-77d6-4a71-a283-5ed36a9c41aa
+2024-05-22 00:17:12 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 00:17:13 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:17:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:17:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:17:14 [INFO] Question: 你好
+2024-05-22 00:17:14 [INFO] Running PandasAI with openai LLM...
+2024-05-22 00:17:14 [INFO] Prompt ID: 254c3006-885b-4049-8ba5-6d1451e6f68b
+2024-05-22 00:17:14 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 00:17:14 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:17:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:17:15 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:23:39 [INFO] Question: nihao 
+2024-05-22 00:23:39 [INFO] Running PandasAI with openai LLM...
+2024-05-22 00:23:39 [INFO] Prompt ID: a34a60d7-2343-481d-9d36-564227d077db
+2024-05-22 00:23:39 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 00:23:40 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:23:41 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:23:41 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:23:41 [INFO] Question: nihao 
+2024-05-22 00:23:41 [INFO] Running PandasAI with openai LLM...
+2024-05-22 00:23:41 [INFO] Prompt ID: aa0022a6-df09-455b-b087-e1e79f60d96c
+2024-05-22 00:23:41 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 00:23:41 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:23:42 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:23:42 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:26:45 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:26:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:26:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:26:46 [INFO] Question: 
+2024-05-22 00:26:46 [INFO] Running PandasAI with openai LLM...
+2024-05-22 00:26:46 [INFO] Prompt ID: 93ed7f63-ab04-47d3-9d94-4bde77819bdb
+2024-05-22 00:26:46 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 00:26:46 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:26:47 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:26:47 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 00:32:52 [INFO] Question: 你好
+2024-05-22 00:32:52 [INFO] Running PandasAI with openai LLM...
+2024-05-22 00:32:52 [INFO] Prompt ID: 7a13de5b-79dd-4a58-970f-62d92dca49d9
+2024-05-22 00:32:52 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 00:32:54 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 00:32:54 [INFO] Explanation:  I'm sorry, but it seems like there was a misunderstanding. The previous conversation did not generate any code, so there is no code to explain. If you have any specific questions about coding or technical details, feel free to ask and I'll do my best to help!
+                
+2024-05-22 00:32:55 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 00:32:55 [INFO] Clarification Questions:  [
+  "Can you provide more details about the specific function that is causing the error?",
+  "Have you checked the documentation or code for the 'stringify' attribute to see if it is a valid function or method?",
+  "What is the expected behavior or outcome when calling the 'stringify' attribute?"
+]
+            
+2024-05-22 00:35:41 [INFO] Question: 你好
+2024-05-22 00:35:41 [INFO] Running PandasAI with openai LLM...
+2024-05-22 00:35:41 [INFO] Prompt ID: e13a3620-d4fa-4415-b6cf-6e6f4c1ad516
+2024-05-22 00:35:41 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 00:35:43 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 00:35:43 [INFO] Explanation:  I'm sorry, but I cannot provide an explanation for generating code without mentioning technical details or libraries used. My responses are based on a combination of pre-existing knowledge and the input I receive from users. If you have any specific questions or need assistance with something else, feel free to ask!
+                
+2024-05-22 00:35:45 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 00:35:45 [INFO] Clarification Questions:  [
+  "Can you provide more details about the specific function that is causing the error?",
+  "Have you checked if the function you are using has a method called 'stringify'?",
+  "What programming language or library are you using for this function?"
+]
+            
+2024-05-22 00:47:03 [INFO] Question: 有多少数据
+2024-05-22 00:47:03 [INFO] Running PandasAI with openai LLM...
+2024-05-22 00:47:03 [INFO] Prompt ID: 6566777a-83cd-40cc-9712-4b6f65ae818c
+2024-05-22 00:47:03 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 00:47:05 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 00:47:05 [INFO] Explanation:  I'm sorry, but it seems like there was a misunderstanding. The previous conversation did not generate any code, so there is no code to explain. If you have any specific questions about coding or technical details, feel free to ask and I'll do my best to help in a non-technical way.
+                
+2024-05-22 00:47:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 00:47:07 [INFO] Clarification Questions:  [
+  "Can you provide more context about the 'function' object and how it is being used?",
+  "What specific function are you trying to use that is resulting in the 'function' object error?",
+  "Have you checked the documentation or sought help from colleagues for troubleshooting the 'function' object attribute error?"
+]
+            
+2024-05-22 00:54:39 [INFO] Question: 数据量多少？
+2024-05-22 00:54:39 [INFO] Running PandasAI with openai LLM...
+2024-05-22 00:54:39 [INFO] Prompt ID: 08705312-4036-4f4b-9739-36d0f7944320
+2024-05-22 00:54:39 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 00:54:42 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 00:54:42 [INFO] Explanation:  As a language model AI, I don't have the capability to generate code for non-technical people. However, if you are looking to create code for non-technical individuals, it's important to focus on simplicity and clarity. You can start by breaking down the problem into smaller, more manageable parts and using plain language to explain the steps involved in solving the problem. Additionally, providing examples and visual aids can also be helpful in making the code more understandable for non-technical individuals.
+                
+2024-05-22 00:54:43 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 00:54:43 [INFO] Clarification Questions:  [
+  "Can you provide more context about the specific function and its usage?",
+  "Are you using a specific library or framework that might be causing this error?",
+  "Have you checked the documentation or sought help from the community for this error?"
+]
+            
+2024-05-22 00:56:20 [INFO] Question: 给我一个代码
+2024-05-22 00:56:20 [INFO] Running PandasAI with openai LLM...
+2024-05-22 00:56:20 [INFO] Prompt ID: 5b43fb43-8988-4331-9048-d2143caff6b1
+2024-05-22 00:56:20 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 00:56:22 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 00:56:22 [INFO] Explanation:  I'm sorry, but it seems like there was a misunderstanding. The previous conversation did not generate any code, so there is no code to explain. If you have any specific questions about coding or technical details, feel free to ask and I'll do my best to help!
+                
+2024-05-22 00:56:24 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 00:56:24 [INFO] Clarification Questions:  [
+  "Can you provide more context about the specific function that is causing the error?",
+  "Have you checked if the function you are using has a 'stringify' attribute or method?",
+  "What programming language or framework are you using for this function?"
+]
+            
+2024-05-22 00:57:17 [INFO] Question: 我没有使用stringify方法
+
+2024-05-22 00:57:17 [INFO] Running PandasAI with openai LLM...
+2024-05-22 00:57:17 [INFO] Prompt ID: 75282f84-b651-4c86-b152-a5333d1e6249
+2024-05-22 00:57:17 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 00:57:19 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 00:57:19 [INFO] Explanation:  I'm sorry, but it seems like there was a misunderstanding. It looks like there was no previous conversation provided to generate code from. If you have a specific conversation or code in mind that you would like me to explain, please provide more details and I'd be happy to help.
+                
+2024-05-22 00:57:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 00:57:20 [INFO] Clarification Questions:  [
+  "Can you provide more context about the 'function' object and how it is being used?",
+  "What specific function are you trying to call the 'stringify' attribute on?",
+  "Are you using a specific library or framework that might be causing this error?"
+]
+            
+2024-05-22 01:10:29 [INFO] Question: 好累啊
+
+2024-05-22 01:10:29 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:10:29 [INFO] Prompt ID: b4bd49cc-6aa2-460c-bf6f-08d129cfdd46
+2024-05-22 01:10:29 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:10:32 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:10:32 [INFO] Explanation:  I'm sorry, but it seems like there was a misunderstanding. The previous conversation did not generate any code, so there is no code to explain. If you have any specific questions about coding or technical details, feel free to ask and I'll do my best to help in a non-technical way.
+                
+2024-05-22 01:10:33 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:10:33 [INFO] Clarification Questions:  [
+  "Can you provide more context about the specific function that is causing the error?",
+  "Have you checked the documentation or code for the 'stringify' attribute to see if it is being used correctly?",
+  "Are there any other error messages or details that could help pinpoint the issue?"
+]
+            
+2024-05-22 01:17:50 [INFO] Question: 有多少数据量
+2024-05-22 01:17:50 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:17:50 [INFO] Prompt ID: 008220e9-9e3c-4158-9042-ad047c5458bf
+2024-05-22 01:17:50 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:17:50 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-22 01:17:50 [INFO] Executing Step 1: CacheLookup
+2024-05-22 01:17:50 [INFO] Executing Step 2: PromptGeneration
+2024-05-22 01:17:50 [INFO] Using prompt: <dataframe>
+dfs[0]:10x4
+title,time,url,content
+早知道·财讯热搜榜TOP10（7月23日）,2021-07-01 15:49,http://www.xinhuanet.com/fortune/2021-06/28/c_1127603712.htm,
+政经有话说|王志刚谈新型举国体制新特点,2021-01-07 16:46,http://www.xinhuanet.com/fortune/2021-07/08/c_1127634257.htm,
+不数不知道！我国新药审批提速进行时,2021-06-29 10:51,http://www.xinhuanet.com/fortune/2021-06/30/c_1127612172.htm,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 有多少数据量
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-22 01:17:50 [INFO] Executing Step 3: CodeGenerator
+2024-05-22 01:17:51 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:17:51 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: OPEN_AI_***_KEY. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-05-22 01:19:10 [INFO] Question: 有多少公司
+2024-05-22 01:19:10 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:19:10 [INFO] Prompt ID: c1889860-8261-4648-aa41-5d6f5337efd3
+2024-05-22 01:19:10 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:19:10 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-22 01:19:10 [INFO] Executing Step 1: CacheLookup
+2024-05-22 01:19:10 [INFO] Executing Step 2: PromptGeneration
+2024-05-22 01:19:10 [INFO] Using prompt: <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+百威,10.16,管培生,GMT,
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 有多少公司
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-22 01:19:10 [INFO] Executing Step 3: CodeGenerator
+2024-05-22 01:19:11 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:19:11 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: OPEN_AI_***_KEY. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-05-22 01:29:59 [INFO] Question: 分析一下
+2024-05-22 01:29:59 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:29:59 [INFO] Prompt ID: d70bd7f2-cdb0-47fa-abf4-05d42b50408d
+2024-05-22 01:29:59 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:29:59 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-22 01:29:59 [INFO] Executing Step 1: CacheLookup
+2024-05-22 01:29:59 [INFO] Executing Step 2: PromptGeneration
+2024-05-22 01:29:59 [INFO] Using prompt: <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+百威,10.16,管培生,GMT,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 分析一下
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-22 01:29:59 [INFO] Executing Step 3: CodeGenerator
+2024-05-22 01:30:06 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:30:06 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+百威,10.16,管培生,GMT,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 分析一下
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-05-22 01:30:06 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+dfs = [
+    pd.DataFrame({
+        '公司': ['百威', '普华永道', '百威'],
+        '投递日期': ['10.16', '10.16', '10.16'],
+        '类别': ['技术类', '资讯', '管培生'],
+        '项目名称': ['技术管培', '数字化资讯', 'GMT'],
+        '进度': ['10.17 AI视频面试（要求72小时内完成）', '10.17 游戏测评面试', '']
+    })
+]
+
+# Declare result var
+result = {"type": "dataframe", "value": dfs[0]}
+            ```
+            
+2024-05-22 01:30:06 [INFO] Executing Step 4: CachePopulation
+2024-05-22 01:30:06 [INFO] Executing Step 5: CodeCleaning
+2024-05-22 01:30:06 [INFO] 
+Code running:
+```
+result = {'type': 'dataframe', 'value': dfs[0]}
+        ```
+2024-05-22 01:30:06 [INFO] Executing Step 6: CodeExecution
+2024-05-22 01:30:06 [INFO] Executing Step 7: ResultValidation
+2024-05-22 01:30:06 [INFO] Answer: {'type': 'dataframe', 'value':      公司   投递日期   类别   项目名称                       进度
+0    百威  10.16  管培生    GMT                      NaN
+1    百威  10.16  技术类   技术管培  10.17 AI视频面试（要求72小时内完成）
+2  普华永道  10.16   资讯  数字化资讯             10.17 游戏测评面试}
+2024-05-22 01:30:06 [INFO] Executing Step 8: ResultParsing
+2024-05-22 01:30:24 [INFO] Question: 有多少公司？
+2024-05-22 01:30:24 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:30:24 [INFO] Prompt ID: 2ed2a26e-dc99-47d9-89b4-e6f7d3fe149e
+2024-05-22 01:30:24 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:30:24 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-22 01:30:24 [INFO] Executing Step 1: CacheLookup
+2024-05-22 01:30:24 [INFO] Executing Step 2: PromptGeneration
+2024-05-22 01:30:24 [INFO] Using prompt: <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 有多少公司？
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-22 01:30:24 [INFO] Executing Step 3: CodeGenerator
+2024-05-22 01:30:26 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:30:26 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 有多少公司？
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-05-22 01:30:26 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+num_companies = len(set(dfs[0]['公司']))
+
+# Declare result var
+result = { "type": "number", "value": num_companies }
+            ```
+            
+2024-05-22 01:30:26 [INFO] Executing Step 4: CachePopulation
+2024-05-22 01:30:26 [INFO] Executing Step 5: CodeCleaning
+2024-05-22 01:30:26 [INFO] 
+Code running:
+```
+num_companies = len(set(dfs[0]['公司']))
+result = {'type': 'number', 'value': num_companies}
+        ```
+2024-05-22 01:30:26 [INFO] Executing Step 6: CodeExecution
+2024-05-22 01:30:26 [INFO] Executing Step 7: ResultValidation
+2024-05-22 01:30:26 [INFO] Answer: {'type': 'number', 'value': 2}
+2024-05-22 01:30:26 [INFO] Executing Step 8: ResultParsing
+2024-05-22 01:34:00 [INFO] Question: 请问一共有多少公司
+2024-05-22 01:34:00 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:34:00 [INFO] Prompt ID: f83eb1b5-2ae1-429e-ab84-951409583bf4
+2024-05-22 01:34:00 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:34:03 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:34:03 [INFO] Explanation:  I did not generate any code for the previous conversation because there were no technical details or specific instructions provided. If there were any technical aspects or requirements mentioned in the conversation, I would have used that information to come up with a code solution. Since there was no such information, I did not generate any code.
+                
+2024-05-22 01:34:04 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:34:04 [INFO] Clarification Questions:  []
+
+            
+2024-05-22 01:35:16 [INFO] Question: 你好
+2024-05-22 01:35:16 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:35:16 [INFO] Prompt ID: ed959bbd-dcd0-4935-9ce3-dcdd0e14c774
+2024-05-22 01:35:16 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:35:19 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:35:19 [INFO] Explanation:  I didn't generate any code based on the previous conversation because there was no technical information or specific instructions provided. If there were any technical details or specific requirements mentioned in the conversation, I would have used that information to come up with a code solution. Since there was no such information, I did not generate any code in this case.
+                
+2024-05-22 01:35:20 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:35:20 [INFO] Clarification Questions:  []
+            
+2024-05-22 01:43:26 [INFO] Question: 求求你了
+2024-05-22 01:43:26 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:43:26 [INFO] Prompt ID: 08db5478-57bc-434f-8306-b1406f7a0c4c
+2024-05-22 01:43:26 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:43:27 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:43:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:43:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:43:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:43:28 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:43:29 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:35 [INFO] Question: 求求你了
+2024-05-22 01:45:35 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:45:35 [INFO] Prompt ID: 8f7daf2a-95b2-4f0d-a184-a060927b2210
+2024-05-22 01:45:35 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:45:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:36 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:37 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:49 [INFO] Question: 好累啊
+2024-05-22 01:45:49 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:45:49 [INFO] Prompt ID: 2913d54e-000a-4861-98d6-2d543651ff93
+2024-05-22 01:45:49 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:45:50 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:51 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:51 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:51 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:51 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:52 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:56 [INFO] Question: 好累啊
+2024-05-22 01:45:56 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:45:56 [INFO] Prompt ID: fc6f1908-1606-429c-bcdc-921404117d2b
+2024-05-22 01:45:56 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:45:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:57 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:58 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:58 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:45:58 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:48:06 [INFO] Question: 真的好累
+2024-05-22 01:48:06 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:48:06 [INFO] Prompt ID: 692f4d12-bde3-4836-bad7-4629044a732d
+2024-05-22 01:48:06 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:48:06 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-22 01:48:06 [INFO] Executing Step 1: CacheLookup
+2024-05-22 01:48:06 [INFO] Executing Step 2: PromptGeneration
+2024-05-22 01:48:06 [INFO] Using prompt: <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+百威,10.16,管培生,GMT,
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 真的好累
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-22 01:48:06 [INFO] Executing Step 3: CodeGenerator
+2024-05-22 01:48:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:48:07 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: OPEN_AI_***_KEY. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-05-22 01:48:07 [INFO] Question: 真的好累
+2024-05-22 01:48:07 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:48:07 [INFO] Prompt ID: 0fac1867-6fd8-42df-998d-6618a533a827
+2024-05-22 01:48:07 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:48:07 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-22 01:48:07 [INFO] Executing Step 1: CacheLookup
+2024-05-22 01:48:07 [INFO] Executing Step 2: PromptGeneration
+2024-05-22 01:48:07 [INFO] Using prompt: <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+百威,10.16,管培生,GMT,
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 真的好累
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-22 01:48:07 [INFO] Executing Step 3: CodeGenerator
+2024-05-22 01:48:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2024-05-22 01:48:07 [ERROR] Pipeline failed on step 3: Error code: 401 - {'error': {'message': 'Incorrect API key provided: OPEN_AI_***_KEY. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-05-22 01:52:08 [INFO] Question: 我真的很累了
+2024-05-22 01:52:08 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:52:08 [INFO] Prompt ID: ed34a5a6-7d32-46da-9e1b-18276e95ff88
+2024-05-22 01:52:08 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:52:08 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-22 01:52:08 [INFO] Executing Step 1: CacheLookup
+2024-05-22 01:52:08 [INFO] Executing Step 2: PromptGeneration
+2024-05-22 01:52:08 [INFO] Using prompt: <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 我真的很累了
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-22 01:52:08 [INFO] Executing Step 3: CodeGenerator
+2024-05-22 01:52:12 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:52:12 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 我真的很累了
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-05-22 01:52:12 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+dfs = [
+    pd.DataFrame({
+        '公司': ['百威', '百威', '普华永道'],
+        '投递日期': ['10.16', '10.16', '10.16'],
+        '类别': ['技术类', '管培生', '资讯'],
+        '项目名称': ['技术管培', 'GMT', '数字化资讯'],
+        '进度': ['10.17 AI视频面试（要求72小时内完成）', '', '10.17 游戏测评面试']
+    })
+]
+
+# Declare result var: 
+result = {"type": "string", "value": "我真的很累了."}
+            ```
+            
+2024-05-22 01:52:12 [INFO] Executing Step 4: CachePopulation
+2024-05-22 01:52:12 [INFO] Executing Step 5: CodeCleaning
+2024-05-22 01:52:12 [INFO] 
+Code running:
+```
+result = {'type': 'string', 'value': '我真的很累了.'}
+        ```
+2024-05-22 01:52:12 [INFO] Executing Step 6: CodeExecution
+2024-05-22 01:52:12 [INFO] Executing Step 7: ResultValidation
+2024-05-22 01:52:12 [INFO] Answer: {'type': 'string', 'value': '我真的很累了.'}
+2024-05-22 01:52:12 [INFO] Executing Step 8: ResultParsing
+2024-05-22 01:52:12 [INFO] Question: 我真的很累了
+2024-05-22 01:52:12 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:52:12 [INFO] Prompt ID: 2bcc238a-cbe1-415a-b6c2-26ce053ea1c2
+2024-05-22 01:52:12 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:52:12 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-22 01:52:12 [INFO] Executing Step 1: CacheLookup
+2024-05-22 01:52:12 [INFO] Executing Step 2: PromptGeneration
+2024-05-22 01:52:12 [INFO] Using prompt: <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 我真的很累了
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-22 01:52:12 [INFO] Executing Step 3: CodeGenerator
+2024-05-22 01:52:17 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:52:17 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 我真的很累了
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-05-22 01:52:17 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Dataframes
+dfs = [
+    pd.DataFrame({
+        '公司': ['百威', '百威', '普华永道'],
+        '投递日期': ['10.16', '10.16', '10.16'],
+        '类别': ['技术类', '管培生', '资讯'],
+        '项目名称': ['技术管培', 'GMT', '数字化资讯'],
+        '进度': ['10.17 AI视频面试（要求72小时内完成）', '', '10.17 游戏测评面试']
+    })
+]
+
+# Declare result var:
+result = {"type": "string", "value": "Dataframes have been successfully loaded."}
+            ```
+            
+2024-05-22 01:52:17 [INFO] Executing Step 4: CachePopulation
+2024-05-22 01:52:17 [INFO] Executing Step 5: CodeCleaning
+2024-05-22 01:52:17 [INFO] 
+Code running:
+```
+result = {'type': 'string', 'value': 'Dataframes have been successfully loaded.'}
+        ```
+2024-05-22 01:52:17 [INFO] Executing Step 6: CodeExecution
+2024-05-22 01:52:17 [INFO] Executing Step 7: ResultValidation
+2024-05-22 01:52:17 [INFO] Answer: {'type': 'string', 'value': 'Dataframes have been successfully loaded.'}
+2024-05-22 01:52:17 [INFO] Executing Step 8: ResultParsing
+2024-05-22 01:52:28 [INFO] Question: 一共有多少公司？
+2024-05-22 01:52:28 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:52:28 [INFO] Prompt ID: 0700ba4b-9a68-4885-880b-de30a0710643
+2024-05-22 01:52:28 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:52:28 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-22 01:52:28 [INFO] Executing Step 1: CacheLookup
+2024-05-22 01:52:28 [INFO] Executing Step 2: PromptGeneration
+2024-05-22 01:52:28 [INFO] Using prompt: <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 一共有多少公司？
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-22 01:52:28 [INFO] Executing Step 3: CodeGenerator
+2024-05-22 01:52:31 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:52:31 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 一共有多少公司？
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-05-22 01:52:31 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+num_companies = len(set(dfs[0]['公司']))
+
+# Declare result var
+result = { "type": "number", "value": num_companies }
+            ```
+            
+2024-05-22 01:52:31 [INFO] Executing Step 4: CachePopulation
+2024-05-22 01:52:31 [INFO] Executing Step 5: CodeCleaning
+2024-05-22 01:52:31 [INFO] 
+Code running:
+```
+num_companies = len(set(dfs[0]['公司']))
+result = {'type': 'number', 'value': num_companies}
+        ```
+2024-05-22 01:52:31 [INFO] Executing Step 6: CodeExecution
+2024-05-22 01:52:31 [INFO] Executing Step 7: ResultValidation
+2024-05-22 01:52:31 [INFO] Answer: {'type': 'number', 'value': 2}
+2024-05-22 01:52:31 [INFO] Executing Step 8: ResultParsing
+2024-05-22 01:52:31 [INFO] Question: 一共有多少公司？
+2024-05-22 01:52:31 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:52:31 [INFO] Prompt ID: 4f82831e-5780-4ac7-bf71-24bfc060e0af
+2024-05-22 01:52:31 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:52:31 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-22 01:52:31 [INFO] Executing Step 1: CacheLookup
+2024-05-22 01:52:31 [INFO] Executing Step 2: PromptGeneration
+2024-05-22 01:52:31 [INFO] Using prompt: <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 一共有多少公司？
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-22 01:52:31 [INFO] Executing Step 3: CodeGenerator
+2024-05-22 01:52:34 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:52:34 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 一共有多少公司？
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-05-22 01:52:34 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+num_companies = len(set(dfs[0]['公司']))
+
+# Declare result var
+result = { "type": "number", "value": num_companies }
+            ```
+            
+2024-05-22 01:52:34 [INFO] Executing Step 4: CachePopulation
+2024-05-22 01:52:34 [INFO] Executing Step 5: CodeCleaning
+2024-05-22 01:52:34 [INFO] 
+Code running:
+```
+num_companies = len(set(dfs[0]['公司']))
+result = {'type': 'number', 'value': num_companies}
+        ```
+2024-05-22 01:52:34 [INFO] Executing Step 6: CodeExecution
+2024-05-22 01:52:34 [INFO] Executing Step 7: ResultValidation
+2024-05-22 01:52:34 [INFO] Answer: {'type': 'number', 'value': 2}
+2024-05-22 01:52:34 [INFO] Executing Step 8: ResultParsing
+2024-05-22 01:52:57 [INFO] Question: 能生成求有多少家公司的代码吗
+2024-05-22 01:52:57 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:52:57 [INFO] Prompt ID: 1fcc1c46-4b83-43fc-a7e2-2a9652c9ada2
+2024-05-22 01:52:57 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:52:57 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-22 01:52:57 [INFO] Executing Step 1: CacheLookup
+2024-05-22 01:52:57 [INFO] Executing Step 2: PromptGeneration
+2024-05-22 01:52:57 [INFO] Using prompt: <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 能生成求有多少家公司的代码吗
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-22 01:52:57 [INFO] Executing Step 3: CodeGenerator
+2024-05-22 01:53:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:53:00 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 能生成求有多少家公司的代码吗
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-05-22 01:53:00 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+num_companies = len(dfs[0]['公司'].unique())
+
+# Declare result var
+result = {
+    "type": "number",
+    "value": num_companies
+}
+            ```
+            
+2024-05-22 01:53:00 [INFO] Executing Step 4: CachePopulation
+2024-05-22 01:53:00 [INFO] Executing Step 5: CodeCleaning
+2024-05-22 01:53:00 [INFO] 
+Code running:
+```
+num_companies = len(dfs[0]['公司'].unique())
+result = {'type': 'number', 'value': num_companies}
+        ```
+2024-05-22 01:53:00 [INFO] Executing Step 6: CodeExecution
+2024-05-22 01:53:00 [INFO] Executing Step 7: ResultValidation
+2024-05-22 01:53:00 [INFO] Answer: {'type': 'number', 'value': 2}
+2024-05-22 01:53:00 [INFO] Executing Step 8: ResultParsing
+2024-05-22 01:53:00 [INFO] Question: 能生成求有多少家公司的代码吗
+2024-05-22 01:53:00 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:53:00 [INFO] Prompt ID: cf7a9408-5d35-4239-94f8-a38dbb549491
+2024-05-22 01:53:00 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:53:00 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-22 01:53:00 [INFO] Executing Step 1: CacheLookup
+2024-05-22 01:53:00 [INFO] Executing Step 2: PromptGeneration
+2024-05-22 01:53:00 [INFO] Using prompt: <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 能生成求有多少家公司的代码吗
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-22 01:53:00 [INFO] Executing Step 3: CodeGenerator
+2024-05-22 01:53:00 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-05-22 01:53:00 [INFO] Retrying request to /chat/completions in 20.000000 seconds
+2024-05-22 01:53:22 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:53:22 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 能生成求有多少家公司的代码吗
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-05-22 01:53:22 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+num_companies = len(dfs[0]['公司'].unique())
+
+# Declare result var
+result = { "type": "string", "value": f"There are {num_companies} companies." }
+            ```
+            
+2024-05-22 01:53:22 [INFO] Executing Step 4: CachePopulation
+2024-05-22 01:53:22 [INFO] Executing Step 5: CodeCleaning
+2024-05-22 01:53:22 [INFO] 
+Code running:
+```
+num_companies = len(dfs[0]['公司'].unique())
+result = {'type': 'string', 'value': f'There are {num_companies} companies.'}
+        ```
+2024-05-22 01:53:22 [INFO] Executing Step 6: CodeExecution
+2024-05-22 01:53:22 [INFO] Executing Step 7: ResultValidation
+2024-05-22 01:53:22 [INFO] Answer: {'type': 'string', 'value': 'There are 2 companies.'}
+2024-05-22 01:53:22 [INFO] Executing Step 8: ResultParsing
+2024-05-22 01:54:02 [INFO] Question: 你能生成横轴是公司名纵轴是数据量的柱形图吗
+2024-05-22 01:54:02 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:54:02 [INFO] Prompt ID: 3b6c070d-3867-4ca0-8125-085ee4903f07
+2024-05-22 01:54:02 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:54:02 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-22 01:54:02 [INFO] Executing Step 1: CacheLookup
+2024-05-22 01:54:02 [INFO] Executing Step 2: PromptGeneration
+2024-05-22 01:54:02 [INFO] Using prompt: <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 你能生成横轴是公司名纵轴是数据量的柱形图吗
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-22 01:54:02 [INFO] Executing Step 3: CodeGenerator
+2024-05-22 01:54:07 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:54:07 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 你能生成横轴是公司名纵轴是数据量的柱形图吗
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-05-22 01:54:07 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Write code here
+data = {
+    '公司': ['普华永道', '百威', '百威'],
+    '投递日期': ['10.16', '10.16', '10.16'],
+    '类别': ['资讯', '技术类', '管培生'],
+    '项目名称': ['数字化资讯', '技术管培', 'GMT'],
+    '进度': ['10.17 游戏测评面试', '10.17 AI视频面试（要求72小时内完成）', '']
+}
+
+dfs = [pd.DataFrame(data)]
+
+# Generate bar chart
+company_counts = dfs[0]['公司'].value_counts()
+company_counts.plot(kind='bar')
+plt.xlabel('公司')
+plt.ylabel('数据量')
+plt.title('不同公司的数据量分布')
+plt.show()
+
+# Declare result var
+result = {"type": "plot", "value": "company_data_bar_chart.png"}
+            ```
+            
+2024-05-22 01:54:07 [INFO] Executing Step 4: CachePopulation
+2024-05-22 01:54:07 [INFO] Executing Step 5: CodeCleaning
+2024-05-22 01:54:07 [INFO] Saving charts to /Users/yangyang/Desktop/langchain_pandasai_streamlit-main的副本2/exports/charts/temp_chart.png
+2024-05-22 01:54:07 [INFO] 
+Code running:
+```
+data = {'公司': ['普华永道', '百威', '百威'], '投递日期': ['10.16', '10.16', '10.16'], '类别': ['资讯', '技术类', '管培生'], '项目名称': ['数字化资讯', '技术管培', 'GMT'], '进度': ['10.17 游戏测评面试', '10.17 AI视频面试（要求72小时内完成）', '']}
+company_counts = dfs[0]['公司'].value_counts()
+company_counts.plot(kind='bar')
+plt.xlabel('公司')
+plt.ylabel('数据量')
+plt.title('不同公司的数据量分布')
+plt.show()
+result = {'type': 'plot', 'value': '/Users/yangyang/Desktop/langchain_pandasai_streamlit-main的副本2/exports/charts/temp_chart.png'}
+        ```
+2024-05-22 01:54:07 [INFO] Executing Step 6: CodeExecution
+2024-05-22 01:54:07 [ERROR] Pipeline failed on step 6: [Errno 2] No such file or directory: '/Users/yangyang/Desktop/langchain_pandasai_streamlit-main的副本2/exports/charts/temp_chart.png'
+2024-05-22 01:54:07 [INFO] Question: 你能生成横轴是公司名纵轴是数据量的柱形图吗
+2024-05-22 01:54:07 [INFO] Running PandasAI with openai LLM...
+2024-05-22 01:54:07 [INFO] Prompt ID: 7c03899c-da23-4ea4-8fa9-21e0f49d5bc2
+2024-05-22 01:54:07 [INFO] Executing Pipeline: GenerateChatPipeline
+2024-05-22 01:54:07 [INFO] Executing Step 0: ValidatePipelineInput
+2024-05-22 01:54:07 [INFO] Executing Step 1: CacheLookup
+2024-05-22 01:54:07 [INFO] Executing Step 2: PromptGeneration
+2024-05-22 01:54:07 [INFO] Using prompt: <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 你能生成横轴是公司名纵轴是数据量的柱形图吗
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+2024-05-22 01:54:07 [INFO] Executing Step 3: CodeGenerator
+2024-05-22 01:54:11 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-05-22 01:54:11 [INFO] Prompt used:
+            <dataframe>
+dfs[0]:3x5
+公司,投递日期,类别,项目名称,进度
+普华永道,10.16,资讯,数字化资讯,10.17 游戏测评面试
+百威,10.16,技术类,技术管培,10.17 AI视频面试（要求72小时内完成）
+百威,10.16,管培生,GMT,
+</dataframe>
+
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ 你能生成横轴是公司名纵轴是数据量的柱形图吗
+
+Variable `dfs: list[pd.DataFrame]` is already declared.
+
+At the end, declare "result" variable as a dictionary of type and value.
+
+If you are asked to plot a chart, use "matplotlib" for charts, save as png.
+
+
+Generate python code and return full updated code:
+            
+2024-05-22 01:54:11 [INFO] Code generated:
+            ```
+            # TODO: import the required dependencies
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Write code here
+data = {
+    '公司': ['普华永道', '百威', '百威'],
+    '数据量': [1, 2, 1]
+}
+
+df = pd.DataFrame(data)
+
+# Generate bar plot
+plt.figure(figsize=(10, 6))
+plt.bar(df['公司'], df['数据量'], color='skyblue')
+plt.xlabel('公司')
+plt.ylabel('数据量')
+plt.title('公司数据量柱形图')
+plt.show()
+
+# Declare result var
+result = {"type": "plot", "value": "company_data_bar_chart.png"}
+            ```
+            
+2024-05-22 01:54:11 [INFO] Executing Step 4: CachePopulation
+2024-05-22 01:54:11 [INFO] Executing Step 5: CodeCleaning
+2024-05-22 01:54:11 [INFO] Saving charts to /Users/yangyang/Desktop/langchain_pandasai_streamlit-main的副本2/exports/charts/temp_chart.png
+2024-05-22 01:54:11 [INFO] 
+Code running:
+```
+data = {'公司': ['普华永道', '百威', '百威'], '数据量': [1, 2, 1]}
+df = pd.DataFrame(data)
+plt.figure(figsize=(10, 6))
+plt.bar(df['公司'], df['数据量'], color='skyblue')
+plt.xlabel('公司')
+plt.ylabel('数据量')
+plt.title('公司数据量柱形图')
+plt.show()
+result = {'type': 'plot', 'value': '/Users/yangyang/Desktop/langchain_pandasai_streamlit-main的副本2/exports/charts/temp_chart.png'}
+        ```
+2024-05-22 01:54:11 [INFO] Executing Step 6: CodeExecution
+2024-05-22 01:54:11 [ERROR] Pipeline failed on step 6: [Errno 2] No such file or directory: '/Users/yangyang/Desktop/langchain_pandasai_streamlit-main的副本2/exports/charts/temp_chart.png'

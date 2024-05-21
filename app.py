@@ -38,7 +38,6 @@ file_formats = {
     "xlsb": pd.read_excel,
 }
 
-st.write("OPEN_AI_API_KEY",st.secrets["OpenAI_API_KEY"])
 
 OPEN_AI_API_KEY = st.secrets["OpenAI_API_KEY"]
 llm = OpenAI(api_token=OPEN_AI_API_KEY, model="gpt-3.5-turbo")

@@ -4,3 +4,4 @@ pandasai
 python-dotenv
 openai
 pyyaml
+plotly

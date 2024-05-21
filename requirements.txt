@@ -7,3 +7,4 @@ pyyaml
 plotly
 langchain
 langchain-community
+rapidfuzz

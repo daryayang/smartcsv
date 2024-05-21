@@ -6,3 +6,4 @@ openai
 pyyaml
 plotly
 langchain
+langchain-community
